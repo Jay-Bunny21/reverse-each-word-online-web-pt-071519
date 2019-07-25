@@ -10,9 +10,9 @@ end
 
 
 
-def reverse_each_word_c(i)
-  c_array = i.split(" ")
-  c_array.collect {|x| x.reverse!}
-    c_array.join(" ")
+def reverse_each_word_c(array)
+  new_array = array.split(" ")
+  new_array.collect {|i| i.reverse}
+  new_array.join(" ")
 end
 
