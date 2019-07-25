@@ -10,11 +10,11 @@ end
 reverse_each_word("Hello there, and how are you?")
 
 
-def reverse_each_word_c(str)
-  c_array = str.split(" ")
+def reverse_each_word_c(i)
+  c_array = i.split(" ")
   two_array = []
-  c_array.collect do |str|
-    two_array << str.reverse
+  c_array.collect do |i|
+    two_array << i.reverse
   end
   two_array.join(" ")
 end
