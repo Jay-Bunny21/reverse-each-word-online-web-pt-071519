@@ -1,7 +1,7 @@
 def reverse_each_word(x)
   array = x.split(" ")
   new_array = []
-  array.each do |string|
+  array.each do |x|
     new_array << x.reverse
   end
   new_array.join(" ")
