@@ -12,7 +12,8 @@ end
 
 def reverse_each_word_c(array)
   new_array = array.split(" ")
-  new_array.collect {|i| i.reverse}
+  hello = []
+  new_array.collect {|hello| hello.reverse}
   new_array.join(" ")
 end
 
